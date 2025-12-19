@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    color:blue;
+}
+body{
+    background-color: lightskyblue;
+    box-shadow: inset 0 0 50px 10px white;
+    overflow: hidden
+
+
+
+}
+#fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.campo{
+    height: 30vh;
+    width:40%;
+    background-color: lightskyblue;
+    box-shadow: 0 0 20px 10px blue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.input{
+    height: 12%;
+    color:white;
+    background-color: blue;
+    border: 2px solid white;
+     border-radius: 20px;
+     font-size: 1em;
+}
+input:focus{
+    outline:none;
+}
+.button{
+background-color: blue;
+    border: 2px solid white;
+     border-radius: 10px;
+     color:white;
+}
+#titulo{
+    text-decoration: underline;
+    font-size: 3em;
+
+}
+label{
+    font-size: 2em;
+}
+#Myh1{
+    font-size: 2em;
+}
+#Myh2{
+    font-size:2em;
+}
