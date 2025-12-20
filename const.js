@@ -17,5 +17,5 @@ document.getElementById("myButton").onclick = function(){
 raio = document.getElementById("myText").value;
 raio = Number(raio);
 circunferencia = 2 * PI * raio;
-document.getElementById("myH3").textContent = (`O resultado é ${circunferencia}`);
+document.getElementById("myH3").textContent = (`O resultado é ${circunferencia + "cm"}`);
 }
